@@ -1,0 +1,67 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/oware"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <TableRow android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/computer_skill_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/computer_skill_description"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <Spinner
+            android:id="@+id/computer_skill_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.90" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/who_begins_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/who_begins_description"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <Spinner
+            android:id="@+id/who_begins_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.90" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.90"
+            android:onClick="onClickStartGame"
+            android:text="@string/start_game" />
+        <Button
+            android:id="@+id/oware_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.90"
+            android:onClick="onClickStartTutorial"
+            android:text="@string/start_tutorial" />
+
+    </TableRow>
+</TableLayout>

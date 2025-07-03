@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board_dice_rot_40p"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+    <Button
+        android:id="@+id/kalaha_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:alpha="0.90"
+        android:background="@drawable/kalah_button"
+        android:onClick="onClickKalahaSetup" />
+
+    <Button
+        android:id="@+id/jackpot_kalaha_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/kalaha_button"
+        android:alpha="0.90"
+        android:background="@drawable/jackpot_kalah_button"
+        android:onClick="onClickJackpotKalahaSetup" />
+    <Button
+        android:id="@+id/oware_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@+id/jackpot_kalaha_button"
+        android:alpha="0.90"
+        android:background="@drawable/oware_button"
+        android:onClick="onClickOwareSetup"/>
+    <Button
+        android:id="@+id/about"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.90"
+        android:background="@drawable/about"
+        android:onClick="onClickAbout" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Jackpot Kalah</string>
+    <string name="choose_a_game">Choose a game</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_menu">Kalaha</string>
+    <string name="kalaha">Kalah</string>
+    <string name="oware">Oware</string>
+    <string name="jackpot_kalaha">Jackpot Kalah</string>
+    <string name="seeds_description">Seeds per house</string>
+    <string name="computer_skill_description">Computer skill</string>
+    <string name="who_begins_description">Who begins to play</string>
+    <string name="empty_capture_variation">Empty capture (see tutorial)</string>
+    <string name="intro">Get an introduction</string>
+    <string name="start_game">Start the game</string>
+    <string name="start_tutorial">Start tutorial</string>
+    <string name ="preference_file_key">keySettings</string>
+    <string name ="android_robot">The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 https://creativecommons.org/licenses/by/3.0/ Attribution License</string>
+    <string name ="opengl_es_tutorials">This game uses OpenGL ES 2.0 and is largely based on the tutorials from http://androidblog.reindustries.com</string>
+
+    <string-array name="computer_skill_array">
+        <item>Beginner</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+    </string-array>
+    
+     <string-array name="who_begins_array">
+        <item>You</item>
+        <item>Random</item>
+        <item>Computer</item>
+     </string-array>
+    
+     <string-array name="seeds_per_house_array">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+     </string-array>
+
+    <string-array name="yes_no_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>
